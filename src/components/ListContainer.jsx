@@ -14,7 +14,7 @@ export default function ListContainer() {
     }
 
     const limpiarLista = () => {
-      const newTodos = tareasActuales.filter((t) => !t.completeda); //crea un array con los elementos en el array "todos" que tengan el valor de completed
+      const newTodos = tareasActuales.filter((t) => !t.completeda);
       setTareasActuales(newTodos);
     }
 
@@ -23,11 +23,7 @@ export default function ListContainer() {
         const newTodos = [...tareasActuales]; // ...en el array actual de tareas...
         const todo = newTodos.find(task => task.id === id); // ...encuentra el elemento que coincide con el ID dado...
         todo.completeda = !todo.completeda; //...cambia el estado de "completado" (true-false)
-        console.log(tareasActuales)
         setTareasActuales(newTodos); //guarda los cambios.
-        // localStorage.setItem("listaTareas.tareas", JSON.stringify(tareasActuales))
-        
-        
     }
 
     useEffect(() => { //Persistividad
@@ -36,22 +32,16 @@ export default function ListContainer() {
       if (storedTodos){
           const newTodos = storedTodos
           setTareasActuales(newTodos) //imprime lo que esta en el local storage
-          console.log(tareasActuales)
       }
 
-      
-      
     }, []); //Solo se ejecuta la primera vez que se renderiza el componente
   
     
       useEffect(()=>{ //Guarda en local Storage
         localStorage.setItem("listaTareas.tareas", JSON.stringify(tareasActuales))
-      },[tareasActuales]) //Se ejecuta cada que hay un cambio en el array "todos"
+      },[tareasActuales]) //Se ejecuta cada que hay un cambio en el array "tareasActuales"
 
 
-        
-
-    
     return (
       <Fragment>
         <ListComponent
