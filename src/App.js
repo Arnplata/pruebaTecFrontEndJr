@@ -4,19 +4,7 @@ import ListContainer from './components/ListContainer';
 
 function App() {
   
-  useEffect(() => { //Persistividad
-    const storedTodos = JSON.parse(localStorage.getItem("listaTareas.tareas")); //Consulta local Storage
-    // console.log(storedTodos)
-    // if (storedTodos){
-    //     setTareasActuales(storedTodos) //imprime lo que esta en el local storage
-    // }
-
-    
-    
-  }, []); //Solo se ejecuta la primera vez que se renderiza el componente
-
-  
-  return (
+    return (
     <Fragment>
       <div className="header"><h1>Prueba Técnica</h1></div>
 
