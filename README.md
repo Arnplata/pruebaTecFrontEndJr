@@ -1,6 +1,6 @@
 # Prueba Técnica Front End Jr. "Lista de Tareas"
 
-Desarrollado por: Plata Hernández Gerardo Aarón
+> Desarrollado por: Plata Hernández Gerardo Aarón
 
 ## Tecnologías usadas: 
 
