@@ -3,7 +3,7 @@ import ListComponent from './ListComponent';
 import { v4 as generarID} from "uuid"
 
 
-export default function ListContainer({  }) {
+export default function ListContainer() {
 
     
 
