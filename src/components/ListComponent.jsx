@@ -17,7 +17,6 @@ const ListComponent = (props) => {
 
    const limpiarLista = () => {
     props.limpiarLista()
-    console.log(props.tareasActuales)
   }
 
 
