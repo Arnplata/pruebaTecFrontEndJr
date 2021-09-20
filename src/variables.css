@@ -1,0 +1,56 @@
+:root {
+    
+    
+    --fondo:#f1f2f4;
+
+    --texto-claro:#fff;
+    --titulos-tarjetas:#0145a0;
+    --descrip-tarjetas:#748494;
+    --iconos-desc:#1d2b36;
+    --fondo-footer:#262e66;
+
+    --fondo-CDMX:#f48e76;
+    --fondo-NL:#0361e4;
+    --fondo-JALISCO:#262e66;
+
+    --header-slider:40px;
+    --p-slider:19px;
+    --menu-size:18px;
+
+    --h1:40px;
+    --h2:22px;
+    --h3:18px;
+    
+
+    --p-1:18px;
+    --p-2:16px;
+
+    --f-title:18px;
+    --f-title2:18px;
+    --f-p:18px;
+
+    --col-1:8.33%;
+    --col-2:16.66%;
+    --col-3:25%;
+    --col-4:33.33%;;
+    --col-5:41.66%;
+    --col-6:50%;
+    --col-7:58.33%;
+    --col-8:66.66%;
+    --col-9:75%;
+    --col-10:83.33%;
+    --col-11:91.66%;
+    --col-12:100%;;
+    
+}
+
+
+@font-face {
+    font-family:CircularStd-Bold;
+    src: url(fonts/CircularStd-Bold.ttf);
+  }
+
+@font-face {
+  font-family:CircularStd-Book;
+  src: url(fonts/CircularStd-Book.ttf);
+}
